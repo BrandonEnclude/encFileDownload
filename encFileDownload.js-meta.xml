@@ -10,12 +10,6 @@
     <targetConfigs>
         <targetConfig targets="lightningCommunity__Default">
             <property
-                type="String"
-                name="baseUrl"
-                label="Base URL"
-                default="Base URL of community, including trailing slash, used in Builder"
-            />
-            <property
                 type="ContentReference"
                 name="fileId"
                 label="File"
