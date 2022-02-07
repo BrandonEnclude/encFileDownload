@@ -1,4 +1,4 @@
-import { LightningElement, api, wire } from 'lwc';
+import { LightningElement, api } from 'lwc';
 
 export default class EncFileDownload extends LightningElement {
    @api linkText = 'Download File';
