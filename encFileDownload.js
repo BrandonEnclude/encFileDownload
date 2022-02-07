@@ -5,7 +5,6 @@ export default class EncFileDownload extends LightningElement {
    @wire(CurrentPageReference)
    pageRef;
 
-   @api baseUrl
    @api linkText = 'Download File';
    @api fileId;
 
